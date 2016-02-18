@@ -9,12 +9,17 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Categories
 
 * [Concurrency](#concurrency)
+* [Java](#java)
 
 ---
 
 ### Concucrrency
 
 - [False sharing](concurrency/false-sharing.md)
+
+### Java
+
+- [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 
 ## License
 
