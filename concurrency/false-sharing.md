@@ -6,7 +6,7 @@ Caches are actually grouped as `cache line` in practice. It is possible that mul
 
 When a thread modifies a variable, caches of other variables on the same cache line are invalidated. CPU needs to get the values of all variables on the same cache line from main memory. It is like the situation for single variable. This is called `false sharing` which degrades the performance.
 
-Pseduo code example:
+Pseduo code example: [1]
 
 ```
 int sum[THREAD_COUNT];
@@ -21,3 +21,7 @@ function calculate(threadId) {
 ```
 
 From the above example, all elements in `sum` may be put in the same cache line.Although each thread doesn't share element with other threads, CPU needs to get all elements from main memory every time a thread wants to access its element.
+
+References:
+
+[1] [Avoiding and Identifying False Sharing Among Threads](https://software.intel.com/en-us/articles/avoiding-and-identifying-false-sharing-among-threads)
