@@ -21,6 +21,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 
+### Security
+
+- [Simplest way to prevent cross site request forgery (CSRF) attack](security/simplest-way-prevent-csrf.md)
+
 ## License
 
 &copy; 2016 Franz Wong
