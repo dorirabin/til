@@ -9,6 +9,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Categories
 
 * [Concurrency](#concurrency)
+* [Git](#git)
 * [Java](#java)
 * [Security](#security)
 
@@ -17,6 +18,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Concucrrency
 
 - [False sharing](concurrency/false-sharing.md)
+
+### Git
+
+- [Delete untracked files and directories](git/delete-untracked-files-directories.md)
 
 ### Java
 
