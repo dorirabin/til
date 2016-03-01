@@ -23,6 +23,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Git
 
 - [Delete untracked files and directories](git/delete-untracked-files-directories.md)
+- [Rebase](git/rebase.md)
 
 ### Java
 
