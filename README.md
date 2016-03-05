@@ -27,6 +27,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### Java
 
+- [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 
 ### Logstash
