@@ -8,11 +8,11 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### Categories
 
-* [Concurrency](#concurrency)
-* [Git](#git)
-* [Java](#java)
-* [Logstash](#logstash)
-* [Security](#security)
+- [Concurrency](#concurrency)
+- [Git](#git)
+- [Java](#java)
+- [Logstash](#logstash)
+- [Security](#security)
 
 ---
 
@@ -37,6 +37,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Security
 
 - [Simplest way to prevent cross site request forgery (CSRF) attack](security/simplest-way-prevent-csrf.md)
+
+- OAuth
+
+    - [Confused deputy attack on implicit grant flow](security/oauth/confused-deputy-attack-implicit-grant-flow.md)
 
 ## License
 
