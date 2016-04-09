@@ -11,6 +11,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - [Concurrency](#concurrency)
 - [Git](#git)
 - [Java](#java)
+- [Javascript](#javascript)
 - [Logstash](#logstash)
 - [Security](#security)
 
@@ -29,6 +30,13 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
+
+### Javascript
+
+- Testing
+
+	- [Fake clock with Sinon](javascript/testing/fake-clock-sinon.md)
+	- [Mock dependency with Mockery](javascript/testing/mock-dependency-mockery.md)
 
 ### Logstash
 
