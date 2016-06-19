@@ -56,7 +56,7 @@ function attemp2() {
 
 ## Attempt 3
 
-Ok. Compromise. Add a nested catch-block. Even throwing an error from nested catch-block, the outer-catch-block is not executed! Where does the error go?
+Ok. Compromise. Add a nested catch-block. Even throwing an error from nested catch-block, the outer-catch-block is not executed!
 
 ```javascript
 function attemp3() {
@@ -90,7 +90,6 @@ function attemp3() {
 But for the following code, the catch-block is executed.
 
 ```javascript
-
 function another() {
   return new Promise((resolve, reject) => {
     func1()
@@ -107,9 +106,9 @@ function another() {
 
 ## Final solution
 
-### Skip it with reject
+### Skip it with error
 
-Use "reject" to skip the 2nd-then block. Remind me the Win32 "ERROR_SUCCESS" error code.
+Throw error to skip the 2nd-then block. Remind me the Win32 "ERROR_SUCCESS" error code.
 
 ```javascript
 function skipIt() {
@@ -119,7 +118,7 @@ function skipIt() {
         console.log('1st then');
 
         if (flag) {
-          reject({ returnCode: 0 });
+          throw { returnCode: 0 };
         } else {
           return func2();
         }
@@ -142,7 +141,7 @@ function skipIt() {
 
 ### Reject in nested catch-block
 
-This solution is ok. But sometimes we want to have "single-point" to handle error.
+This solution is ok. But sometimes we want to have "single-place" to handle error.
 
 ```javascript
 function rejectInNestedCatch() {

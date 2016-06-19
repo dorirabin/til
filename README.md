@@ -34,6 +34,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### Javascript
 
+- Language
+
+  - [Breaking promise chain conditionally](javascript/language/break-promise-chain-conditionally.md)
+
 - Testing
 
 	- [Fake clock with Sinon](javascript/testing/fake-clock-sinon.md)
