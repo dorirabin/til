@@ -26,6 +26,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - [Delete untracked files and directories](git/delete-untracked-files-directories.md)
 - [Multiple SSH keys for multiple Github accounts](git/multiple-github-accounts.md)
 - [Rebase](git/rebase.md)
+- [Three-way merging](git/three-way-merging.md)
 
 ### Java
 
