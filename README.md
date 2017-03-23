@@ -8,14 +8,22 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### Categories
 
+- [Commands](#commands)
 - [Concurrency](#concurrency)
 - [Git](#git)
 - [Java](#java)
 - [Javascript](#javascript)
 - [Logstash](#logstash)
 - [Security](#security)
+- [Sublime text](#sublime-text)
 
 ---
+
+### Commands
+
+- rsync
+
+    - [Ending slash](commands/rsync/ending-slash.md)
 
 ### Concucrrency
 
