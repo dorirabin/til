@@ -13,7 +13,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - [Git](#git)
 - [Java](#java)
 - [Javascript](#javascript)
-- [Logstash](#logstash)
+- [Logging](#logging)
 - [Security](#security)
 - [Sublime text](#sublime-text)
 
@@ -55,9 +55,14 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 	- [Fake clock with Sinon](javascript/testing/fake-clock-sinon.md)
 	- [Mock dependency with Mockery](javascript/testing/mock-dependency-mockery.md)
 
-### Logstash
+### Logging
 
-- [Multiline filter](logstash/multiline-filter.md)
+- Log4j 2
+  - [Use threshold filter to log to different file based on level](logging/log4j2/threshold-filter.md)
+
+- Logstash
+
+  - [Multiline filter](logging/logstash/multiline-filter.md)
 
 ### Security
 
