@@ -73,6 +73,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
     - [Confused deputy attack on implicit grant flow](security/oauth/confused-deputy-attack-implicit-grant-flow.md)
 
+- OpenID Connect
+
+    - [OpenID state and nonce](security/openid/state_nonce.md)
+
 ### Sublime text
 
 - [Change indentation setting](sublime-text/change-indentation.md)
