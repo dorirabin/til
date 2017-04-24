@@ -1,14 +1,27 @@
-# OpenID state and nonce
+# OpenID Connect state and nonce
 
 ## state
 
-Generated when preparing authentication request.
-
 Defined in OAuth 2.0
 
-Prevent CSRF
+### Generation
 
-#### Validation
+Generated when preparing authentication request to Authorization Endpoint.
+
+```
+https://server.example.com/authorize?
+    response_type=code
+    &scope=openid%20profile%20email
+    &client_id=s6BhdRkqt3
+    &state=af0ifjsldkj
+    &redirect_uri=https%3A%2F%2Fclient.example.org%2Fcb
+```
+
+From the specification:
+
+The value that binds the request to the user-agent's authenticated state (e.g., a hash of the session cookie used to authenticate the user-agent).
+
+### Validation
 
 Authorization server returns a 302 response to user agent for Authorization Endpoint.
 
@@ -21,13 +34,41 @@ Location: https://client.example.org/cb?
 
 User agent follows the location to client. Client gets the ```state``` from query parameter and validates against the one generated for authentication request.
 
-## nonce
+### Possible attack when without this measure
 
-Generated when preparing authentication request.
+This measure prevents CSRF attack.
+
+1. Attacker gets response from Authorization Endpoint with his account.
+2. Attacker puts the link from the response to his web site as an image.
+
+Example:
+
+```
+<img src="https://client.example.org/cb?code=SplxlOBeZQQYbYS6WxSbIA" width="0" height="0" border="0">
+```
+
+3. Victim goes to Attacker's web site and silently sends the request to Client.
+4. Client stores ```id_token``` associated with Attacker's account in Victim's session.
+5. Victim goes to Client's web site and saves sensitive information. However, Victim saves to Attacker's account.
+
+## nonce
 
 Defined in OpenID Connect Core 1.0
 
 Prevent replay attack
+
+### Generation
+
+Generated when preparing authentication request to Authorization Endpoint.
+
+```
+https://server.example.com/authorize?
+    response_type=code
+    &scope=openid%20profile%20email
+    &client_id=s6BhdRkqt3
+    &state=af0ifjsldkj
+    &redirect_uri=https%3A%2F%2Fclient.example.org%2Fcb
+```
 
 #### Validation
 

@@ -75,12 +75,11 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 - OpenID Connect
 
-    - [OpenID state and nonce](security/openid/state_nonce.md)
+    - [OpenID Connect state and nonce](security/openid/state_nonce.md)
 
 ### Sublime text
 
 - [Change indentation setting](sublime-text/change-indentation.md)
-
 
 ### [Ubuntu](ubuntu)
 
