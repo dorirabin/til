@@ -59,6 +59,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 ### Logging
 
 - Log4j 2
+  - [Custom pattern converter to output Spring properties](logging/log4j2/custom-pattern-converter.md)
   - [Use threshold filter to log to different file based on level](logging/log4j2/threshold-filter.md)
 
 - Logstash
