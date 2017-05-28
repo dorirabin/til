@@ -42,7 +42,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 - Reading source
-  - [How does ThreadLocal store data](java/reading-source/how-threadlocal-store-data.md)
+  - [How does ThreadLocal store data to prevent memory leak when thread dies?](java/reading-source/how-threadlocal-store-data-to-prevent-memory-leak-when-thread-dies.md)
 
 ### Javascript
 
@@ -63,6 +63,8 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - Log4j 2
   - [Custom pattern converter to output Spring properties](logging/log4j2/custom-pattern-converter.md)
   - [Use threshold filter to log to different file based on level](logging/log4j2/threshold-filter.md)
+  - Reading source
+    - [Can AsyncLogger write log with values in ThreadContext of calling thread?](logging/reading-source/can-asynclogger-write-log-with-values-in-threadcontext-of-caling-thread.md)
 
 - Logstash
 

@@ -1,4 +1,4 @@
-# How does ThreadLocal store data
+# How does ThreadLocal store data to prevent memory leak when thread dies?
 
 ThreadLocal is a per-thread storage. You may treat that as a Map<Thread, Object>. However, if a thread dies, will the entry still stay in memory?
 
