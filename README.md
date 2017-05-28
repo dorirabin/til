@@ -41,6 +41,8 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
+- Reading source
+  - [How does ThreadLocal store data](java/reading-source/how-threadlocal-store-data.md)
 
 ### Javascript
 
