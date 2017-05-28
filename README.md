@@ -64,7 +64,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Custom pattern converter to output Spring properties](logging/log4j2/custom-pattern-converter.md)
   - [Use threshold filter to log to different file based on level](logging/log4j2/threshold-filter.md)
   - Reading source
-    - [Can AsyncLogger write log with values in ThreadContext of calling thread?](logging/reading-source/can-asynclogger-write-log-with-values-in-threadcontext-of-caling-thread.md)
+    - [Can AsyncLogger write log with values in ThreadContext of calling thread?](logging/log4j2/reading-source/can-asynclogger-write-log-with-values-in-threadcontext-of-calling-thread.md)
 
 - Logstash
 
