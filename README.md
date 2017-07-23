@@ -88,6 +88,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### [Ubuntu](ubuntu)
 
+### Webpack
+
+- [Use html-webpack-plugin with webpack-dev-middleware](webpack/use-html-webpack-plugin-with-webpack-dev-middleware.md)
+
 ## License
 
 &copy; 2016 Franz Wong
