@@ -47,6 +47,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
+- [Weak reference and string pooling](java/weakreference-stringpooling.md)
 - Reading source
   - [How does ThreadLocal store data to prevent memory leak when thread dies?](java/reading-source/how-threadlocal-store-data-to-prevent-memory-leak-when-thread-dies.md)
 
