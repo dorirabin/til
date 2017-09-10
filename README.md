@@ -23,6 +23,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ---
 
+### Cassandra
+
+- [Null and tombstone](cassandra/null_and_tombstone.md)
+
 ### Commands
 
 - rsync
@@ -106,7 +110,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ## License
 
-&copy; 2016 Franz Wong
+&copy; 2017 Franz Wong
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
