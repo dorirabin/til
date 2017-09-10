@@ -15,6 +15,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - [Java](#java)
 - [Javascript](#javascript)
 - [Logging](#logging)
+- [RabbitMQ](#rabbitmq)
 - [Security](#security)
 - [Sublime text](#sublime-text)
 - [Ubuntu](#ubuntu)
@@ -76,6 +77,10 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 - Logstash
 
   - [Multiline filter](logging/logstash/multiline-filter.md)
+
+### RabbitMQ
+
+- [Persistency and durability](rabbitmq/persistency_and_durability/persistency_and_durability.md)
 
 ### Security
 
