@@ -8,6 +8,7 @@ Borrow the idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ### Categories
 
+- [Cassandra](#cassandra)
 - [Commands](#commands)
 - [Concurrency](#concurrency)
 - [Docker](#docker)
