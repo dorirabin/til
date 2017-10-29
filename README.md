@@ -104,7 +104,10 @@ If it helps you, please `Star` this repository :)
 
 ### Spring
 
-- [Spring boot dependency version](spring/spring-boot-dependency-version.md)
+- Spring boot
+
+  - [Customize json deserialization](spring/spring-boot/customize-json-deserialization.md)
+  - [Spring boot dependency version](spring/spring-boot/dependency-version.md)
 
 ### Sublime text
 
