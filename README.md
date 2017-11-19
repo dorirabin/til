@@ -18,8 +18,10 @@ If it helps you, please `Star` this repository :)
 - [Java](#java)
 - [Javascript](#javascript)
 - [Logging](#logging)
+- [Maven](#maven)
 - [RabbitMQ](#rabbitmq)
 - [Security](#security)
+- [SoapUI](#soapui)
 - [Spring](#spring)
 - [Sublime text](#sublime-text)
 - [Ubuntu](#ubuntu)
@@ -86,6 +88,10 @@ If it helps you, please `Star` this repository :)
 
   - [Multiline filter](logging/logstash/multiline-filter.md)
 
+### Maven
+
+- [Java 8 settings](maven/java_8_settings.md)
+
 ### RabbitMQ
 
 - [Persistency and durability](rabbitmq/persistency_and_durability/persistency_and_durability.md)
@@ -101,6 +107,10 @@ If it helps you, please `Star` this repository :)
 - OpenID Connect
 
     - [OpenID Connect state and nonce](security/openid/state_nonce.md)
+
+### SoapUI
+
+- [Parse json response](soapui/parse-json-response.md)
 
 ### Spring
 
