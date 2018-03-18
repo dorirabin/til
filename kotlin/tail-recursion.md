@@ -7,7 +7,7 @@ class BinarySearch<T: Comparable<T>> {
     fun search(array: Array<T>, target: T): Int {
         return when {
             array.isEmpty() -> -1
-            else -> search(array, target,0, array.size - 1)
+            else -> search(array, target, 0, array.size - 1)
         }
     }
 
