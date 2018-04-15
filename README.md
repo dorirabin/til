@@ -81,6 +81,7 @@ If it helps you, please `Star` this repository :)
 
 - Log4j 2
   - [Custom pattern converter to output Spring properties](logging/log4j2/custom-pattern-converter.md)
+  - [Pass ThreadContext to another thread](logging/log4j2/pass_threadcontext_to_another_thread.md)
   - [Use threshold filter to log to different file based on level](logging/log4j2/threshold-filter.md)
   - Reading source
     - [Can AsyncLogger write log with values in ThreadContext of calling thread?](logging/log4j2/reading-source/can-asynclogger-write-log-with-values-in-threadcontext-of-calling-thread.md)
