@@ -19,6 +19,7 @@ If it helps you, please `Star` this repository :)
 - [Javascript](#javascript)
 - [Logging](#logging)
 - [Maven](#maven)
+- [Mongo](#mongo)
 - [RabbitMQ](#rabbitmq)
 - [Security](#security)
 - [SoapUI](#soapui)
@@ -91,6 +92,10 @@ If it helps you, please `Star` this repository :)
 ### Maven
 
 - [Java 8 settings](maven/java_8_settings.md)
+
+### Mongo
+
+- [Mongo shell commands](mongo/shell-commands.md)
 
 ### RabbitMQ
 
