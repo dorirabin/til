@@ -2,7 +2,7 @@
 
 Asynchronous tasks are executed on another thread. It means they cannot access to the data stored in ThreadContext. We need to decorate the ExecutorService and copy the ThreadContext to the execution thread of the asynchronous task.
 
-```
+```java
 public class ThreadContextAwareExecutorService extends AbstractExecutorService {
 
     private ExecutorService executorService;
@@ -53,7 +53,7 @@ public class ThreadContextAwareExecutorService extends AbstractExecutorService {
 
 This is how we use it.
 
-```
+```java
 public class MainApplication {
     private static final Logger logger = LogManager.getLogger(MainApplication.class);
     private static final ExecutorService executor = new ThreadContextAwareExecutorService(ForkJoinPool.commonPool());
