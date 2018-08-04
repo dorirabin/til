@@ -57,6 +57,8 @@ If it helps you, please `Star` this repository :)
 
 ### Java
 
+- Generics
+  - [Bounded wildcard](java/generics/bounded_wildcard.md)
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 - [Weak reference and string pooling](java/weakreference-stringpooling.md)
