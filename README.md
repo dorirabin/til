@@ -57,6 +57,7 @@ If it helps you, please `Star` this repository :)
 
 ### Java
 
+- [Bit shift operator](java/bit-shift-operator.md)
 - Generics
   - [Bounded wildcard](java/generics/bounded_wildcard.md)
 - [Mock date time](java/mock-date-time.md)
