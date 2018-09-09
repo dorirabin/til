@@ -60,6 +60,7 @@ If it helps you, please `Star` this repository :)
 - [Bit shift operator](java/bit-shift-operator.md)
 - Generics
   - [Bounded wildcard](java/generics/bounded_wildcard.md)
+- [Map compute()](java/map-compute.md)
 - [Mock date time](java/mock-date-time.md)
 - [Silent install Oracle JDK 8 on Ubuntu](java/silent-install-oracle-jdk8-ubuntu.md)
 - [Weak reference and string pooling](java/weakreference-stringpooling.md)
