@@ -12,6 +12,7 @@ If it helps you, please `Star` this repository :)
 
 - [Cassandra](#cassandra)
 - [Commands](#commands)
+- [Css](#css)
 - [Concurrency](#concurrency)
 - [Docker](#docker)
 - [Git](#git)
@@ -39,6 +40,10 @@ If it helps you, please `Star` this repository :)
 - rsync
 
     - [Ending slash](commands/rsync/ending-slash.md)
+
+### Css
+
+- [Fix border-radius ignored by image](css/fix-image-border-radius.md)
 
 ### Concucrrency
 
