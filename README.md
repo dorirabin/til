@@ -18,6 +18,7 @@ If it helps you, please `Star` this repository :)
 - [Git](#git)
 - [Java](#java)
 - [Javascript](#javascript)
+- [Kotlin](#kotlin)
 - [Logging](#logging)
 - [Maven](#maven)
 - [Mongo](#mongo)
@@ -85,6 +86,11 @@ If it helps you, please `Star` this repository :)
 
 	- [Fake clock with Sinon](javascript/testing/fake-clock-sinon.md)
 	- [Mock dependency with Mockery](javascript/testing/mock-dependency-mockery.md)
+
+### Kotlin
+
+- [Kotlin tips for Java developer](kotlin-tips.md)
+- [Tail recursion](kotlin/tail-recursion.md)
 
 ### Logging
 
