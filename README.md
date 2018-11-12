@@ -44,7 +44,7 @@ If it helps you, please `Star` this repository :)
 
 ### CSS
 
-- [CSS Tips](css/css-tips.md)
+- [CSS tricks](css/css-tricks.md)
 - [Fix border-radius ignored by image](css/fix-image-border-radius.md)
 
 ### Concucrrency
